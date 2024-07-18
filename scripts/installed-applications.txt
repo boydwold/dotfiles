@@ -1,0 +1,513 @@
+Affinity Designer.app
+Affinity Photo.app
+Affinity Publisher.app
+Arc.app
+BitBox.app
+Bitwarden Directory Connector.app
+Bitwarden.app
+Brave Browser.app
+CHIRP.app
+Cakebrew.app
+Carbide Create.app
+Carbide Motion.app
+Cloudflare One.app
+Cloudflare WARP.app
+Covve.app
+DEVONthink 3.app
+Developer.app
+Discord.app
+Docker.app
+Drafts.app
+Duplicate File Finder.app
+Elgato Stream Deck.app
+GPG Keychain.app
+GitHub Desktop.app
+Goodnotes.app
+Grammarly Desktop.app
+Grammarly for Safari.app
+Karabiner-Elements.app
+Karabiner-EventViewer.app
+Keyboard Maestro.app
+Keynote.app
+LM Studio.app
+Ledger Live.app
+Logseq.app
+Microsoft Defender Shim.app
+Microsoft Edge Dev.app
+Microsoft Edge.app
+Microsoft Excel.app
+Microsoft OneNote.app
+Microsoft Outlook.app
+Microsoft PowerPoint.app
+Microsoft Remote Desktop.app
+Microsoft Teams.app
+Microsoft To Do.app
+Microsoft Word.app
+MuteDeck
+Notability.app
+Numbers.app
+OBS.app
+OBSBOT_WebCam.app
+Omnivore.app
+OneDrive.app
+OpenAudible.app
+OpenBuildsCONTROL.app
+OpenVPN Connect
+OpenVPN Connect.app
+PDF Expert.app
+Pages.app
+Parallels Desktop.app
+Plex.app
+PowerShell.app
+Proton Mail Bridge.app
+Proton Mail Uninstaller.app
+Proton Mail.app
+Proton Pass.app
+ProtonVPN.app
+Raycast.app
+Reflect.app
+Rewind.app
+Safari.app
+Scapple.app
+ScreenFlow.app
+Setapp
+Setapp.app
+Shapr3D.app
+Signal.app
+Spotify.app
+Stats.app
+Steam.app
+Structured.app
+Sublime Text.app
+SuperDuper!.app
+TeamViewer.app
+Telegram.app
+Turtle Beach.app
+UUBYTEISOEditor.app
+Universal Gcode Sender.app
+Utilities
+VLC.app
+Visual Studio Code.app
+Warp.app
+Webex.app
+WhatsApp.app
+Xcode-beta.app
+Xcode.app
+YubiKey Manager.app
+ZOE.app
+applications.txt
+balenaEtcher.app
+iMovie.app
+pCloud Drive.app
+proton-mail-export-cli.app
+zoom.us.app
+Autodesk Fusion Service Utility.app
+Autodesk Fusion.app
+Edge Apps.localized
+Remove Autodesk Fusion.app
+/Applications/Visual Studio Code.app
+/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app
+/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (GPU).app
+/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app
+/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app
+/Applications/VLC.app
+/Applications/VLC.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app
+/Applications/VLC.app/Contents/Frameworks/Breakpad.framework/Versions/A/Resources/crash_report_sender.app
+/Applications/ProtonVPN.app
+/Applications/ProtonVPN.app/Contents/Library/LoginItems/ProtonVPNStarter.app
+/Applications/ProtonVPN.app/Contents/Frameworks/Sparkle.framework/Versions/B/Updater.app
+/Applications/ProtonVPN.app/Contents/Frameworks/Sparkle.framework/Updater.app
+/Applications/OpenBuildsCONTROL.app
+/Applications/OpenBuildsCONTROL.app/Contents/Frameworks/OpenBuildsCONTROL Helper (Plugin).app
+/Applications/OpenBuildsCONTROL.app/Contents/Frameworks/OpenBuildsCONTROL Helper (GPU).app
+/Applications/OpenBuildsCONTROL.app/Contents/Frameworks/OpenBuildsCONTROL Helper (Renderer).app
+/Applications/OpenBuildsCONTROL.app/Contents/Frameworks/OpenBuildsCONTROL Helper.app
+/Applications/Signal.app
+/Applications/Signal.app/Contents/Frameworks/Signal Helper.app
+/Applications/Signal.app/Contents/Frameworks/Signal Helper (Plugin).app
+/Applications/Signal.app/Contents/Frameworks/Signal Helper (Renderer).app
+/Applications/Signal.app/Contents/Frameworks/Signal Helper (GPU).app
+/Applications/Cloudflare One.app
+/Applications/Cloudflare One.app/Wrapper/Cloudflare One.app
+/Applications/BitBox.app
+/Applications/BitBox.app/Contents/Frameworks/QtWebEngineCore.framework/Versions/5/Helpers/QtWebEngineProcess.app
+/Applications/ZOE.app
+/Applications/ZOE.app/Wrapper/zoe.app
+/Applications/TeamViewer.app
+/Applications/TeamViewer.app/Contents/Frameworks/TVNoteIntegration.framework/Versions/A/Resources/TeamViewer Note.app
+/Applications/TeamViewer.app/Contents/Frameworks/Sparkle.framework/Versions/B/Updater.app
+/Applications/TeamViewer.app/Contents/Frameworks/Sparkle.framework/Updater.app
+/Applications/TeamViewer.app/Contents/Helpers/TeamViewer_Desktop.app
+/Applications/LM Studio.app
+/Applications/LM Studio.app/Contents/Frameworks/LM Studio Helper (Renderer).app
+/Applications/LM Studio.app/Contents/Frameworks/LM Studio Helper (GPU).app
+/Applications/LM Studio.app/Contents/Frameworks/LM Studio Helper.app
+/Applications/LM Studio.app/Contents/Frameworks/LM Studio Helper (Plugin).app
+/Applications/OpenVPN Connect/Uninstall OpenVPN Connect.app
+/Applications/OpenVPN Connect/OpenVPN Connect.app
+/Applications/OpenVPN Connect/OpenVPN Connect.app/Contents/Frameworks/OpenVPN Connect Helper (GPU).app
+/Applications/OpenVPN Connect/OpenVPN Connect.app/Contents/Frameworks/OpenVPN Connect Helper (Renderer).app
+/Applications/OpenVPN Connect/OpenVPN Connect.app/Contents/Frameworks/OpenVPN Connect Helper (Plugin).app
+/Applications/OpenVPN Connect/OpenVPN Connect.app/Contents/Frameworks/OpenVPN Connect Helper.app
+/Applications/Raycast.app
+/Applications/Raycast.app/Contents/Library/LoginItems/RaycastLauncher.app
+/Applications/Carbide Create.app
+/Applications/Carbide Create.app/Contents/Frameworks/QtWebEngineCore.framework/Versions/5/Helpers/QtWebEngineProcess.app
+/Applications/Plex.app
+/Applications/Plex.app/Contents/Resources/Plex Updater.app
+/Applications/Plex.app/Contents/Frameworks/QtWebEngineCore.framework/Versions/A/Helpers/QtWebEngineProcess.app
+/Applications/Steam.app
+/Applications/Steam.app/Contents/Frameworks/Breakpad.framework/Versions/A/Resources/crash_report_sender.app
+/Applications/Proton Pass.app
+/Applications/Proton Pass.app/Contents/Frameworks/Proton Pass Helper.app
+/Applications/Proton Pass.app/Contents/Frameworks/Proton Pass Helper (GPU).app
+/Applications/Proton Pass.app/Contents/Frameworks/Proton Pass Helper (Plugin).app
+/Applications/Proton Pass.app/Contents/Frameworks/Proton Pass Helper (Renderer).app
+/Applications/Microsoft Defender Shim.app
+/Applications/Microsoft Defender Shim.app/Contents/MacOS/Microsoft Defender Shim.app
+/Applications/pCloud Drive.app
+/Applications/Karabiner-Elements.app
+/Applications/Karabiner-Elements.app/Contents/Frameworks/Sparkle.framework/Versions/B/Updater.app
+/Applications/Karabiner-Elements.app/Contents/Frameworks/Sparkle.framework/Updater.app
+/Applications/Karabiner-EventViewer.app
+/Applications/Numbers.app
+/Applications/DEVONthink 3.app
+/Applications/DEVONthink 3.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app
+/Applications/Grammarly Desktop.app
+/Applications/Grammarly Desktop.app/Contents/Library/LoginItems/GRLoginHelper.app
+/Applications/Grammarly Desktop.app/Contents/Library/LaunchAgents/Grammarly Desktop Helper.app
+/Applications/Grammarly Desktop.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app
+/Applications/Telegram.app
+/Applications/Parallels Desktop.app
+/Applications/Parallels Desktop.app/Contents/MacOS/Parallels Service.app
+/Applications/Parallels Desktop.app/Contents/MacOS/Parallels VM.app
+/Applications/Parallels Desktop.app/Contents/MacOS/Parallels Mac VM.app
+/Applications/Parallels Desktop.app/Contents/Applications/Parallels Technical Data Reporter.app
+/Applications/Parallels Desktop.app/Contents/Applications/Parallels Mounter.app
+/Applications/Parallels Desktop.app/Contents/Applications/Parallels Link.app
+/Applications/Xcode.app
+/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/Library/Xcode/Agents/XCPreviewAgent.app
+/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/Library/Xcode/Agents/XCTRunner.app
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Agents/XCPreviewAgent.app
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Agents/XCTRunner.app
+/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/Library/Xcode/Agents/XCPreviewAgent.app
+/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/Library/Xcode/Agents/XCTRunner.app
+/Applications/Xcode.app/Contents/Developer/Platforms/XROS.platform/Developer/Library/Xcode/Agents/XCPreviewAgent.app
+/Applications/Xcode.app/Contents/Developer/Platforms/XROS.platform/Developer/Library/Xcode/Agents/XCTRunner.app
+/Applications/Xcode.app/Contents/Developer/Platforms/XRSimulator.platform/Developer/Library/Xcode/Agents/XCPreviewAgent.app
+/Applications/Xcode.app/Contents/Developer/Platforms/XRSimulator.platform/Developer/Library/Xcode/Agents/XCTRunner.app
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/iOSSupport/Library/Xcode/Agents/XCPreviewAgent.app
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Xcode/Agents/XCPreviewAgent.app
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Xcode/Agents/Xcode Helper.app
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Xcode/Agents/XCTRunner.app
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Interface Builder/Plug-ins/CocoaPlugin.ibplugin/Contents/Resources/IBCocoaSimulator.app
+/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/Library/Xcode/Agents/XCPreviewAgent.app
+/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/Library/Xcode/Agents/XCTRunner.app
+/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/Library/Xcode/Agents/XCPreviewAgent.app
+/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/Library/Xcode/Agents/XCTRunner.app
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/XCPreviewAgent.app
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/XCTRunner.app
+/Applications/Xcode.app/Contents/Developer/Library/Xcode/Agents/GPUToolsAgent.app
+/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app
+/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app
+/Applications/Xcode.app/Contents/Applications/Create ML.app
+/Applications/Xcode.app/Contents/Applications/Instruments.app
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Helpers/backgroundinstruments.app
+/Applications/Xcode.app/Contents/Applications/FileMerge.app
+/Applications/Xcode.app/Contents/Applications/Reality Composer Pro.app
+/Applications/Xcode.app/Contents/Applications/Accessibility Inspector.app
+/Applications/Microsoft Remote Desktop.app
+/Applications/PowerShell.app
+/Applications/OneDrive.app
+/Applications/OneDrive.app/Contents/Library/LoginItems/Launcher Disabler.app
+/Applications/OneDrive.app/Contents/Library/LoginItems/OneDrive Launcher.app
+/Applications/OneDrive.app/Contents/OneDrive File Handler.app
+/Applications/OneDrive.app/Contents/StandaloneUpdater.app
+/Applications/OneDrive.app/Contents/SyncReporter.app
+/Applications/OneDrive.app/Contents/Microsoft SharePoint.app
+/Applications/OneDrive.app/Contents/OneDrive Updater.app
+/Applications/OBSBOT_WebCam.app
+/Applications/Warp.app
+/Applications/YubiKey Manager.app
+/Applications/YubiKey Manager.app/Contents/Frameworks/Python.framework/Versions/3.11/Resources/Python.app
+/Applications/Spotify.app
+/Applications/Spotify.app/Contents/Library/LoginItems/StartUpHelper.app
+/Applications/Spotify.app/Contents/Frameworks/Spotify Helper.app
+/Applications/Spotify.app/Contents/Frameworks/Spotify Helper (GPU).app
+/Applications/Spotify.app/Contents/Frameworks/Spotify Helper (Renderer).app
+/Applications/Spotify.app/Contents/Frameworks/Spotify Helper (Plugin).app
+/Applications/Drafts.app
+/Applications/Drafts.app/Contents/Library/LoginItems/Drafts-OSX-Launcher.app
+/Applications/iMovie.app
+/Applications/SuperDuper!.app
+/Applications/Microsoft Word.app
+/Applications/Microsoft Word.app/Contents/SharedSupport/Open XML for Excel.app
+/Applications/Microsoft Word.app/Contents/SharedSupport/Microsoft Error Reporting.app
+/Applications/Duplicate File Finder.app
+/Applications/Elgato Stream Deck.app
+/Applications/Elgato Stream Deck.app/Contents/Frameworks/QtWebEngineCore.framework/Versions/A/Helpers/QtWebEngineProcess.app
+/Applications/Docker.app
+/Applications/Docker.app/Contents/MacOS/Docker Desktop.app
+/Applications/Docker.app/Contents/MacOS/Docker Desktop.app/Contents/Frameworks/Docker Desktop Helper (Renderer).app
+/Applications/Docker.app/Contents/MacOS/Docker Desktop.app/Contents/Frameworks/Docker Desktop Helper.app
+/Applications/Docker.app/Contents/MacOS/Docker Desktop.app/Contents/Frameworks/Docker Desktop Helper (GPU).app
+/Applications/Docker.app/Contents/MacOS/Docker Desktop.app/Contents/Frameworks/Docker Desktop Helper (Plugin).app
+/Applications/Docker.app/Contents/Library/LoginItems/DockerHelper.app
+/Applications/Cloudflare WARP.app
+/Applications/Cloudflare WARP.app/Contents/Library/LoginItems/LoginLauncherApp.app
+/Applications/Cloudflare WARP.app/Contents/Frameworks/Sparkle.framework/Versions/B/Updater.app
+/Applications/Cloudflare WARP.app/Contents/Frameworks/Sparkle.framework/Updater.app
+/Applications/Affinity Designer.app
+/Applications/Grammarly for Safari.app
+/Applications/balenaEtcher.app
+/Applications/balenaEtcher.app/Contents/Frameworks/balenaEtcher Helper (Renderer).app
+/Applications/balenaEtcher.app/Contents/Frameworks/balenaEtcher Helper (Plugin).app
+/Applications/balenaEtcher.app/Contents/Frameworks/balenaEtcher Helper (GPU).app
+/Applications/balenaEtcher.app/Contents/Frameworks/balenaEtcher Helper.app
+/Applications/Universal Gcode Sender.app
+/Applications/Scapple.app
+/Applications/Scapple.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app
+/Applications/OpenVPN Connect.app
+/Applications/Safari.app
+/Applications/GPG Keychain.app
+/Applications/Reflect.app
+/Applications/Reflect.app/Contents/Frameworks/Reflect Helper (Renderer).app
+/Applications/Reflect.app/Contents/Frameworks/Reflect Helper.app
+/Applications/Reflect.app/Contents/Frameworks/Reflect Helper (Plugin).app
+/Applications/Reflect.app/Contents/Frameworks/Reflect Helper (GPU).app
+/Applications/Arc.app
+/Applications/Arc.app/Contents/Frameworks/Sparkle.framework/Versions/B/Updater.app
+/Applications/Arc.app/Contents/Frameworks/Sparkle.framework/Updater.app
+/Applications/Arc.app/Contents/Frameworks/ArcCore.framework/Versions/A/Helpers/Arc Helper (Alerts).app
+/Applications/Arc.app/Contents/Frameworks/ArcCore.framework/Versions/A/Helpers/Arc Helper (Plugin).app
+/Applications/Arc.app/Contents/Frameworks/ArcCore.framework/Versions/A/Helpers/Arc Helper.app
+/Applications/Arc.app/Contents/Frameworks/ArcCore.framework/Versions/A/Helpers/Arc Helper (GPU).app
+/Applications/Arc.app/Contents/Frameworks/ArcCore.framework/Versions/A/Helpers/Arc Helper (Renderer).app
+/Applications/Microsoft Excel.app
+/Applications/Microsoft Excel.app/Contents/SharedSupport/Microsoft.Mashup.Container.app
+/Applications/Microsoft Excel.app/Contents/SharedSupport/Microsoft Error Reporting.app
+/Applications/Utilities/Feedback Assistant.app
+/Applications/ScreenFlow.app
+/Applications/ScreenFlow.app/Contents/Library/LoginItems/ScreenFlowHelper.app
+/Applications/ScreenFlow.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app
+/Applications/zoom.us.app
+/Applications/zoom.us.app/Contents/Frameworks/ZoomUninstaller.app
+/Applications/zoom.us.app/Contents/Frameworks/ZoomPhone.app
+/Applications/zoom.us.app/Contents/Frameworks/ZMScreenshot.app
+/Applications/zoom.us.app/Contents/Frameworks/ZoomAutoUpdater.app
+/Applications/zoom.us.app/Contents/Frameworks/CptHost.app
+/Applications/zoom.us.app/Contents/Frameworks/zCCIMeetingHost.app
+/Applications/zoom.us.app/Contents/Frameworks/caphost.app
+/Applications/zoom.us.app/Contents/Frameworks/aomhost.app
+/Applications/zoom.us.app/Contents/Frameworks/Transcode.app
+/Applications/zoom.us.app/Contents/Frameworks/airhost.app
+/Applications/zoom.us.app/Contents/Frameworks/ZoomClips.app
+/Applications/WhatsApp.app
+/Applications/WhatsApp.app/Contents/Frameworks/WAAppKitBridge.framework/Versions/A/PlugIns/MacPlugin.bundle/Contents/Frameworks/Sparkle.framework/Versions/B/Updater.app
+/Applications/WhatsApp.app/Contents/Frameworks/WAAppKitBridge.framework/Versions/A/PlugIns/MacPlugin.bundle/Contents/Frameworks/Sparkle.framework/Updater.app
+/Applications/Microsoft Outlook.app
+/Applications/Microsoft Outlook.app/Contents/SharedSupport/Outlook Profile Manager.app
+/Applications/Microsoft Outlook.app/Contents/SharedSupport/Microsoft Error Reporting.app
+/Applications/GitHub Desktop.app
+/Applications/GitHub Desktop.app/Contents/Frameworks/GitHub Desktop Helper (Plugin).app
+/Applications/GitHub Desktop.app/Contents/Frameworks/GitHub Desktop Helper.app
+/Applications/GitHub Desktop.app/Contents/Frameworks/GitHub Desktop Helper (Renderer).app
+/Applications/GitHub Desktop.app/Contents/Frameworks/GitHub Desktop Helper (GPU).app
+/Applications/Affinity Photo.app
+/Applications/Keynote.app
+/Applications/Cakebrew.app
+/Applications/Cakebrew.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app
+/Applications/Microsoft Edge Dev.app
+/Applications/Microsoft Edge Dev.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/128.0.2708.0/Helpers/EdgeUpdater.app
+/Applications/Microsoft Edge Dev.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/128.0.2708.0/Helpers/Microsoft Edge Helper (Plugin).app
+/Applications/Microsoft Edge Dev.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/128.0.2708.0/Helpers/EdgeSpotlightIndexer.app
+/Applications/Microsoft Edge Dev.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/128.0.2708.0/Helpers/Microsoft Edge Helper (Alerts).app
+/Applications/Microsoft Edge Dev.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/128.0.2708.0/Helpers/Microsoft Edge Helper.app
+/Applications/Microsoft Edge Dev.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/128.0.2708.0/Helpers/Microsoft Edge Helper (Renderer).app
+/Applications/Microsoft Edge Dev.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/128.0.2708.0/Helpers/Microsoft Edge Helper (GPU).app
+/Applications/Microsoft Edge Dev.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/128.0.2677.1/Helpers/EdgeUpdater.app
+/Applications/Microsoft Edge Dev.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/128.0.2677.1/Helpers/Microsoft Edge Helper (Plugin).app
+/Applications/Microsoft Edge Dev.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/128.0.2677.1/Helpers/EdgeSpotlightIndexer.app
+/Applications/Microsoft Edge Dev.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/128.0.2677.1/Helpers/Microsoft Edge Helper (Alerts).app
+/Applications/Microsoft Edge Dev.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/128.0.2677.1/Helpers/Microsoft Edge Helper.app
+/Applications/Microsoft Edge Dev.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/128.0.2677.1/Helpers/Microsoft Edge Helper (Renderer).app
+/Applications/Microsoft Edge Dev.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/128.0.2677.1/Helpers/Microsoft Edge Helper (GPU).app
+/Applications/Omnivore.app
+/Applications/Setapp/Downie.app
+/Applications/Setapp/CleanShot X.app
+/Applications/Setapp/CleanShot X.app/Contents/Library/LoginItems/LaunchAtLoginHelper.app
+/Applications/Setapp/CleanMyMac X.app
+/Applications/Setapp/CleanMyMac X.app/Contents/MacOS/CleanMyMac X Updater.app
+/Applications/Setapp/CleanMyMac X.app/Contents/Library/LoginItems/CleanMyMac X HealthMonitor.app
+/Applications/Setapp/CleanMyMac X.app/Contents/Library/LoginItems/CleanMyMac Menu.app
+/Applications/Setapp/CleanMyMac X.app/Contents/Library/LoginItems/CleanMyMac Menu.app/Contents/Frameworks/DevMateKit.framework/Versions/A/Resources/Autoupdate.app
+/Applications/Setapp/NotePlan.app
+/Applications/Setapp/TextSniper.app
+/Applications/Setapp/TextSniper.app/Contents/Library/LoginItems/LaunchAtLoginHelper.app
+/Applications/Setapp/HazeOver.app
+/Applications/Setapp/HazeOver.app/Contents/Library/LoginItems/HazeOverLauncher.app
+/Applications/Setapp/Bartender.app
+/Applications/Setapp/Bartender.app/Contents/Resources/Bartender - Show Full Menu Bar.app
+/Applications/Setapp/Bartender.app/Contents/Library/LoginItems/BartenderStartAtLoginHelper-setapp.app
+/Applications/Setapp/Vidrio.app
+/Applications/Setapp/Keep It Shot.app
+/Applications/Setapp/Elephas.app
+/Applications/Setapp/Meeter.app
+/Applications/Setapp/Meeter.app/Contents/Library/LoginItems/LaunchAtLoginHelper.app
+/Applications/Setapp/Yoink.app
+/Applications/Setapp/Yoink.app/Contents/Library/LoginItems/yoinkLoginStarterHelper.app
+/Applications/Setapp/In Your Face.app
+/Applications/Setapp/In Your Face.app/Contents/Library/LoginItems/InYourFaceHelper.app
+/Applications/Setapp/Gitfox.app
+/Applications/Bitwarden.app
+/Applications/Bitwarden.app/Contents/Library/LoginItems/Bitwarden Login Helper.app
+/Applications/Bitwarden.app/Contents/Frameworks/Bitwarden Helper (GPU).app
+/Applications/Bitwarden.app/Contents/Frameworks/Bitwarden Helper (Renderer).app
+/Applications/Bitwarden.app/Contents/Frameworks/Bitwarden Helper (Plugin).app
+/Applications/Bitwarden.app/Contents/Frameworks/Bitwarden Helper.app
+/Applications/.Karabiner-VirtualHIDDevice-Manager.app
+/Applications/Brave Browser.app
+/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/122.1.63.174/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app
+/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/122.1.63.174/Helpers/Brave Browser Helper.app
+/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/122.1.63.174/Helpers/Brave Browser Helper (GPU).app
+/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/122.1.63.174/Helpers/Brave Browser Helper (Alerts).app
+/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/122.1.63.174/Helpers/Brave Browser Helper (Plugin).app
+/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/122.1.63.174/Helpers/Brave Browser Helper (Renderer).app
+/Applications/Pages.app
+/Applications/Microsoft To Do.app
+/Applications/Microsoft Edge.app
+/Applications/Microsoft Edge.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/126.0.2592.102/Helpers/EdgeUpdater.app
+/Applications/Microsoft Edge.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/126.0.2592.102/Helpers/Microsoft Edge Helper (Plugin).app
+/Applications/Microsoft Edge.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/126.0.2592.102/Helpers/EdgeSpotlightIndexer.app
+/Applications/Microsoft Edge.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/126.0.2592.102/Helpers/Microsoft Edge Helper (Alerts).app
+/Applications/Microsoft Edge.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/126.0.2592.102/Helpers/Microsoft Edge Helper.app
+/Applications/Microsoft Edge.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/126.0.2592.102/Helpers/Microsoft Edge Helper (Renderer).app
+/Applications/Microsoft Edge.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/126.0.2592.102/Helpers/Microsoft Edge Helper (GPU).app
+/Applications/Microsoft Edge.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/126.0.2592.87/Helpers/EdgeUpdater.app
+/Applications/Microsoft Edge.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/126.0.2592.87/Helpers/Microsoft Edge Helper (Plugin).app
+/Applications/Microsoft Edge.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/126.0.2592.87/Helpers/EdgeSpotlightIndexer.app
+/Applications/Microsoft Edge.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/126.0.2592.87/Helpers/Microsoft Edge Helper (Alerts).app
+/Applications/Microsoft Edge.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/126.0.2592.87/Helpers/Microsoft Edge Helper.app
+/Applications/Microsoft Edge.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/126.0.2592.87/Helpers/Microsoft Edge Helper (Renderer).app
+/Applications/Microsoft Edge.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/126.0.2592.87/Helpers/Microsoft Edge Helper (GPU).app
+/Applications/Microsoft OneNote.app
+/Applications/Microsoft OneNote.app/Contents/SharedSupport/Microsoft Error Reporting.app
+/Applications/Covve.app
+/Applications/Covve.app/Wrapper/App.app
+/Applications/Structured.app
+/Applications/Setapp.app
+/Applications/Setapp.app/Contents/Library/LaunchServices/SetappExtension.app
+/Applications/Setapp.app/Contents/Library/LaunchServices/SetappUpdater.app
+/Applications/Setapp.app/Contents/Library/LaunchServices/SetappUpdater.app/Contents/Frameworks/Sparkle.framework/Versions/B/Updater.app
+/Applications/Setapp.app/Contents/Library/LaunchServices/SetappUpdater.app/Contents/Frameworks/Sparkle.framework/Updater.app
+/Applications/Setapp.app/Contents/Library/LaunchServices/Setapp.app
+/Applications/Setapp.app/Contents/Library/LaunchServices/Setapp.app/Contents/Resources/SetappUninstaller.app
+/Applications/Setapp.app/Contents/Library/LaunchServices/SetappLauncher.app
+/Applications/Setapp.app/Contents/Library/LaunchServices/SetappAssistant.app
+/Applications/Setapp.app/Contents/Frameworks/Sparkle.framework/Versions/B/Updater.app
+/Applications/Setapp.app/Contents/Frameworks/Sparkle.framework/Updater.app
+/Applications/Ledger Live.app
+/Applications/Ledger Live.app/Contents/Frameworks/Ledger Live Helper (Plugin).app
+/Applications/Ledger Live.app/Contents/Frameworks/Ledger Live Helper (GPU).app
+/Applications/Ledger Live.app/Contents/Frameworks/Ledger Live Helper.app
+/Applications/Ledger Live.app/Contents/Frameworks/Ledger Live Helper (Renderer).app
+/Applications/CHIRP.app
+/Applications/OpenAudible.app
+/Applications/Proton Mail Uninstaller.app
+/Applications/Goodnotes.app
+/Applications/Rewind.app
+/Applications/Rewind.app/Contents/Frameworks/Sparkle.framework/Versions/B/Updater.app
+/Applications/Rewind.app/Contents/Frameworks/Sparkle.framework/Updater.app
+/Applications/UUBYTEISOEditor.app
+/Applications/Proton Mail Bridge.app
+/Applications/Bitwarden Directory Connector.app
+/Applications/Bitwarden Directory Connector.app/Contents/Frameworks/Bitwarden Directory Connector Helper (GPU).app
+/Applications/Bitwarden Directory Connector.app/Contents/Frameworks/Bitwarden Directory Connector Helper (Renderer).app
+/Applications/Bitwarden Directory Connector.app/Contents/Frameworks/Bitwarden Directory Connector Helper (Plugin).app
+/Applications/Bitwarden Directory Connector.app/Contents/Frameworks/Bitwarden Directory Connector Helper.app
+/Applications/Developer.app
+/Applications/Notability.app
+/Applications/Stats.app
+/Applications/Stats.app/Contents/Library/LoginItems/LaunchAtLogin.app
+/Applications/Affinity Publisher.app
+/Applications/OBS.app
+/Applications/OBS.app/Contents/Frameworks/Sparkle.framework/Versions/B/Updater.app
+/Applications/OBS.app/Contents/Frameworks/Sparkle.framework/Updater.app
+/Applications/OBS.app/Contents/Frameworks/OBS Helper.app
+/Applications/OBS.app/Contents/Frameworks/OBS Helper (Plugin).app
+/Applications/OBS.app/Contents/Frameworks/OBS Helper (GPU).app
+/Applications/OBS.app/Contents/Frameworks/OBS Helper (Renderer).app
+/Applications/Shapr3D.app
+/Applications/Microsoft PowerPoint.app
+/Applications/Microsoft PowerPoint.app/Contents/SharedSupport/Open XML for Excel.app
+/Applications/Microsoft PowerPoint.app/Contents/SharedSupport/Microsoft Error Reporting.app
+/Applications/Logseq.app
+/Applications/Logseq.app/Contents/Frameworks/Logseq Helper.app
+/Applications/Logseq.app/Contents/Frameworks/Logseq Helper (GPU).app
+/Applications/Logseq.app/Contents/Frameworks/Logseq Helper (Plugin).app
+/Applications/Logseq.app/Contents/Frameworks/Logseq Helper (Renderer).app
+/Applications/proton-mail-export-cli.app
+/Applications/PDF Expert.app
+/Applications/PDF Expert.app/Contents/Frameworks/Sparkle.framework/Versions/B/Updater.app
+/Applications/PDF Expert.app/Contents/Frameworks/Sparkle.framework/Updater.app
+/Applications/Webex.app
+/Applications/Webex.app/Contents/PlugIns/CiscoSparkPlugin.bundle/Contents/Helpers/CaptureHost.app
+/Applications/Webex.app/Contents/PlugIns/CiscoSparkPlugin.bundle/Contents/Helpers/washost.app
+/Applications/Microsoft Teams.app
+/Applications/Microsoft Teams.app/Contents/Helpers/Microsoft Teams WebView.app
+/Applications/Microsoft Teams.app/Contents/Helpers/Microsoft Teams WebView.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/125.0.2535.94/Helpers/Microsoft Teams WebView Helper (Plugin).app
+/Applications/Microsoft Teams.app/Contents/Helpers/Microsoft Teams WebView.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/125.0.2535.94/Helpers/Microsoft Teams WebView Helper (Renderer).app
+/Applications/Microsoft Teams.app/Contents/Helpers/Microsoft Teams WebView.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/125.0.2535.94/Helpers/Microsoft Teams WebView Helper.app
+/Applications/Microsoft Teams.app/Contents/Helpers/Microsoft Teams WebView.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/125.0.2535.94/Helpers/Microsoft Teams WebView Helper (GPU).app
+/Applications/Microsoft Teams.app/Contents/Helpers/Microsoft Teams ModuleHost.app
+/Applications/Keyboard Maestro.app
+/Applications/Keyboard Maestro.app/Contents/MacOS/Keyboard Maestro Engine.app
+/Applications/Proton Mail.app
+/Applications/Proton Mail.app/Contents/Resources/Proton Mail Uninstaller.app
+/Applications/Proton Mail.app/Contents/Frameworks/Proton Mail Helper.app
+/Applications/Proton Mail.app/Contents/Frameworks/Proton Mail Helper (GPU).app
+/Applications/Proton Mail.app/Contents/Frameworks/Proton Mail Helper (Renderer).app
+/Applications/Proton Mail.app/Contents/Frameworks/Proton Mail Helper (Plugin).app
+/Applications/Turtle Beach.app
+/Applications/Carbide Motion.app
+/Applications/Carbide Motion.app/Contents/Frameworks/QtWebEngineCore.framework/Versions/5/Helpers/QtWebEngineProcess.app
+/Applications/Discord.app
+/Applications/Discord.app/Contents/Frameworks/Discord Helper.app
+/Applications/Discord.app/Contents/Frameworks/Discord Helper (Plugin).app
+/Applications/Discord.app/Contents/Frameworks/Discord Helper (GPU).app
+/Applications/Discord.app/Contents/Frameworks/Discord Helper (Renderer).app
+/Applications/Xcode-beta.app
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/Library/Xcode/Agents/XCPreviewAgent.app
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/Library/Xcode/Agents/XCTRunner.app
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Agents/XCPreviewAgent.app
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Agents/XCTRunner.app
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/WatchOS.platform/Developer/Library/Xcode/Agents/XCPreviewAgent.app
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/WatchOS.platform/Developer/Library/Xcode/Agents/XCTRunner.app
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/XROS.platform/Developer/Library/Xcode/Agents/XCPreviewAgent.app
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/XROS.platform/Developer/Library/Xcode/Agents/XCTRunner.app
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/XRSimulator.platform/Developer/Library/Xcode/Agents/XCPreviewAgent.app
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/XRSimulator.platform/Developer/Library/Xcode/Agents/XCTRunner.app
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/iOSSupport/Library/Xcode/Agents/XCPreviewAgent.app
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Xcode/Agents/XCPreviewAgent.app
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Xcode/Agents/Xcode Helper.app
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Xcode/Agents/XCTRunner.app
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Interface Builder/Plug-ins/CocoaPlugin.ibplugin/Contents/Resources/IBCocoaSimulator.app
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/Library/Xcode/Agents/XCPreviewAgent.app
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/Library/Xcode/Agents/XCTRunner.app
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/Library/Xcode/Agents/XCPreviewAgent.app
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/Library/Xcode/Agents/XCTRunner.app
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/XCPreviewAgent.app
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/XCTRunner.app
+/Applications/Xcode-beta.app/Contents/Developer/Library/Xcode/Agents/GPUToolsAgent.app
+/Applications/Xcode-beta.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app
+/Applications/Xcode-beta.app/Contents/Developer/Applications/Simulator.app
+/Applications/Xcode-beta.app/Contents/Applications/Create ML.app
+/Applications/Xcode-beta.app/Contents/Applications/Instruments.app
+/Applications/Xcode-beta.app/Contents/Applications/Instruments.app/Contents/Helpers/backgroundinstruments.app
+/Applications/Xcode-beta.app/Contents/Applications/FileMerge.app
+/Applications/Xcode-beta.app/Contents/Applications/Reality Composer Pro.app
+/Applications/Xcode-beta.app/Contents/Applications/Accessibility Inspector.app
+/Applications/Sublime Text.app
+/Users/boyd/Applications/Remove Autodesk Fusion.app
+/Users/boyd/Applications/Autodesk Fusion Service Utility.app
+/Users/boyd/Applications/Autodesk Fusion.app
