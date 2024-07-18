@@ -384,7 +384,7 @@ defaults write -g WebContinuousSpellCheckingEnabled -boolean true
 /usr/libexec/PlistBuddy "$HOME/Library/Preferences/com.apple.symbolichotkeys.plist" -c 'Add AppleSymbolicHotKeys:65:enabled bool false'
 
 # Remove Spotlight from menu bar
-sudo chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search
+# sudo chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search
 
 # Disable Notification Center
 #launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist
@@ -499,7 +499,7 @@ defaults write com.apple.mail DisableInlineAttachmentViewing -bool true
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
 # Disable local Time Machine backups
-hash tmutil &> /dev/null && sudo tmutil disablelocal
+# hash tmutil &> /dev/null && sudo tmutil disablelocal
 
 ###############################################################################
 # Address Book, Dashboard, iCal, TextEdit, and Disk Utility                   #
@@ -565,7 +565,7 @@ sudo pmset -b panicrestart 15
 sudo pmset -c sleep 30
 
 # Display sleep: 10 min
-sudo mset -c displaysleep 10
+sudo pmset -c displaysleep 10
 
 # Put the hard disk(s) to sleep when possible: 10 min
 sudo pmset -c disksleep 10
