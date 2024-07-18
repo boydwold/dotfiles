@@ -121,3 +121,5 @@
 [user]
 	email = boydwold@gmail.com
 	name = Boyd Wold
+[credential]
+	helper = store
