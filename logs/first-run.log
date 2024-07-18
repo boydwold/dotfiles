@@ -1,0 +1,807 @@
+Last login: Thu Jul 18 08:09:26 on console
+boydwold@Boyds-MacBook-Pro ~ % git config -f ~/.gitlocal user.email "boydwold@gmail.com"
+git config -f ~/.gitlocal user.name "Boyd Wold"    
+xcode-select: note: No developer tools were found, requesting install.
+If developer tools are located at a non-default location on disk, use `sudo xcode-select --switch path/to/Xcode.app` to specify the Xcode that you wish to use for command line developer tools, and cancel the installation dialog.
+See `man xcode-select` for more details.
+xcode-select: note: No developer tools were found, requesting install.
+If developer tools are located at a non-default location on disk, use `sudo xcode-select --switch path/to/Xcode.app` to specify the Xcode that you wish to use for command line developer tools, and cancel the installation dialog.
+See `man xcode-select` for more details.
+boydwold@Boyds-MacBook-Pro ~ % git config -f ~/.gitlocal user.email "boydwold@gmail.com"
+git config -f ~/.gitlocal user.name "Boyd Wold"
+boydwold@Boyds-MacBook-Pro ~ % # Clone dotfiles repo
+git clone https://github.com/boydwold/dotfiles.git $HOME/.dotfiles
+zsh: command not found: #
+Cloning into '/Users/boydwold/.dotfiles'...
+remote: Enumerating objects: 1808, done.
+remote: Counting objects: 100% (251/251), done.
+remote: Compressing objects: 100% (70/70), done.
+remote: Total 1808 (delta 205), reused 205 (delta 180), pack-reused 1557
+Receiving objects: 100% (1808/1808), 543.75 KiB | 1.60 MiB/s, done.
+Resolving deltas: 100% (1050/1050), done.
+boydwold@Boyds-MacBook-Pro ~ % cd $HOME/.dotfiles
+boydwold@Boyds-MacBook-Pro .dotfiles % ./install
+Submodule 'dotbot' (https://github.com/anishathalye/dotbot) registered for path 'dotbot'
+Cloning into '/Users/boydwold/.dotfiles/dotbot'...
+Submodule path 'dotbot': checked out 'd2f76a25933f97cd37ef94e3bf9c134b9c55a02a'
+Submodule 'lib/pyyaml' (https://github.com/yaml/pyyaml) registered for path 'dotbot/lib/pyyaml'
+Cloning into '/Users/boydwold/.dotfiles/dotbot/lib/pyyaml'...
+Submodule path 'dotbot/lib/pyyaml': checked out '2f463cf5b0e98a52bc20e348d1e69761bf263b86'
+All targets have been cleaned
+Globs from 'home/.*': ['home/.czrc', 'home/.gitignore', 'home/.config', 'home/.zshrc', 'home/.gitconfig', 'home/.vimrc']
+Creating link ~/.czrc -> /Users/boydwold/.dotfiles/home/.czrc
+Creating link ~/.gitignore -> /Users/boydwold/.dotfiles/home/.gitignore
+Creating link ~/.config -> /Users/boydwold/.dotfiles/home/.config
+Creating link ~/.zshrc -> /Users/boydwold/.dotfiles/home/.zshrc
+Creating link ~/.gitconfig -> /Users/boydwold/.dotfiles/home/.gitconfig
+Creating link ~/.vimrc -> /Users/boydwold/.dotfiles/home/.vimrc
+All links have been set up
+Path exists /Users/boydwold/.config
+All paths have been set up
+Installing submodules [git submodule update --init --recursive]
+Installing zgen [./scripts/zgen]
+Cloning into '/Users/boydwold/.zgen'...
+remote: Enumerating objects: 434, done.
+remote: Total 434 (delta 0), reused 0 (delta 0), pack-reused 434
+Receiving objects: 100% (434/434), 111.25 KiB | 409.00 KiB/s, done.
+Resolving deltas: 100% (213/213), done.
+Scaffolding Project folders [./scripts/projects]
+Run ./scripts/bootstrap to bootstrap new machine [echo "bash $DOTFILES/scripts/bootstrap"]
+bash /scripts/bootstrap
+All commands have been executed
+
+==> All tasks executed successfully
+boydwold@Boyds-MacBook-Pro .dotfiles % ls -al
+total 88
+drwxr-xr-x  17 boydwold  staff   544 Jul 18 08:25 .
+drwxr-x---+ 23 boydwold  staff   736 Jul 18 08:26 ..
+-rw-r--r--   1 boydwold  staff   419 Jul 18 08:25 .editorconfig
+drwxr-xr-x  13 boydwold  staff   416 Jul 18 08:26 .git
+-rw-r--r--   1 boydwold  staff   143 Jul 18 08:25 .gitignore
+-rw-r--r--   1 boydwold  staff    98 Jul 18 08:25 .gitmodules
+-rw-r--r--   1 boydwold  staff    26 Jul 18 08:25 .prettierrc
+-rw-r--r--   1 boydwold  staff  4140 Jul 18 08:25 Brewfile
+-rw-r--r--   1 boydwold  staff  8363 Jul 18 08:25 README.md
+drwxr-xr-x  10 boydwold  staff   320 Jul 18 08:25 bin
+drwxr-xr-x   3 boydwold  staff    96 Jul 18 08:25 custom
+drwxr-xr-x  19 boydwold  staff   608 Jul 18 08:26 dotbot
+drwxr-xr-x   8 boydwold  staff   256 Jul 18 08:25 home
+-rwxr-xr-x   1 boydwold  staff   368 Jul 18 08:25 install
+-rw-r--r--   1 boydwold  staff   592 Jul 18 08:25 install.conf.yaml
+drwxr-xr-x   5 boydwold  staff   160 Jul 18 08:25 lib
+drwxr-xr-x   8 boydwold  staff   256 Jul 18 08:25 scripts
+boydwold@Boyds-MacBook-Pro .dotfiles % ./scripts/bootstrap 
+           __        __   ____ _  __           
+      ____/ /____   / /_ / __/(_)/ /___   _____
+     / __  // __ \ / __// /_ / // // _ \ / ___/
+  _ / /_/ // /_/ // /_ / __// // //  __/(__  ) 
+ (_)\__,_/ \____/ \__//_/  /_//_/ \___//____/  
+                                               
+              by @denysdovhan                  
+                                               
+This script will guide you through installing git, zsh and dofiles itself.
+It will not install anything without your direct agreement!
+
+Do you want to proceed with installation? [y/N] y
+Trying to detect installed Homebrew...
+Seems like you don't have Homebrew installed!
+Do you agree to proceed with Homebrew installation? [y/N] y
+Installing Homebrew...
+==> Checking for `sudo` access (which may request your password)...
+Password:
+==> This script will install:
+/opt/homebrew/bin/brew
+/opt/homebrew/share/doc/homebrew
+/opt/homebrew/share/man/man1/brew.1
+/opt/homebrew/share/zsh/site-functions/_brew
+/opt/homebrew/etc/bash_completion.d/brew
+/opt/homebrew
+==> The following new directories will be created:
+/opt/homebrew/bin
+/opt/homebrew/etc
+/opt/homebrew/include
+/opt/homebrew/lib
+/opt/homebrew/sbin
+/opt/homebrew/share
+/opt/homebrew/var
+/opt/homebrew/opt
+/opt/homebrew/share/zsh
+/opt/homebrew/share/zsh/site-functions
+/opt/homebrew/var/homebrew
+/opt/homebrew/var/homebrew/linked
+/opt/homebrew/Cellar
+/opt/homebrew/Caskroom
+/opt/homebrew/Frameworks
+
+Press RETURN/ENTER to continue or any other key to abort:
+==> /usr/bin/sudo /usr/bin/install -d -o root -g wheel -m 0755 /opt/homebrew
+==> /usr/bin/sudo /bin/mkdir -p /opt/homebrew/bin /opt/homebrew/etc /opt/homebrew/include /opt/homebrew/lib /opt/homebrew/sbin /opt/homebrew/share /opt/homebrew/var /opt/homebrew/opt /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew /opt/homebrew/var/homebrew/linked /opt/homebrew/Cellar /opt/homebrew/Caskroom /opt/homebrew/Frameworks
+==> /usr/bin/sudo /bin/chmod ug=rwx /opt/homebrew/bin /opt/homebrew/etc /opt/homebrew/include /opt/homebrew/lib /opt/homebrew/sbin /opt/homebrew/share /opt/homebrew/var /opt/homebrew/opt /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew /opt/homebrew/var/homebrew/linked /opt/homebrew/Cellar /opt/homebrew/Caskroom /opt/homebrew/Frameworks
+==> /usr/bin/sudo /bin/chmod go-w /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions
+==> /usr/bin/sudo /usr/sbin/chown boydwold /opt/homebrew/bin /opt/homebrew/etc /opt/homebrew/include /opt/homebrew/lib /opt/homebrew/sbin /opt/homebrew/share /opt/homebrew/var /opt/homebrew/opt /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew /opt/homebrew/var/homebrew/linked /opt/homebrew/Cellar /opt/homebrew/Caskroom /opt/homebrew/Frameworks
+==> /usr/bin/sudo /usr/bin/chgrp admin /opt/homebrew/bin /opt/homebrew/etc /opt/homebrew/include /opt/homebrew/lib /opt/homebrew/sbin /opt/homebrew/share /opt/homebrew/var /opt/homebrew/opt /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew /opt/homebrew/var/homebrew/linked /opt/homebrew/Cellar /opt/homebrew/Caskroom /opt/homebrew/Frameworks
+==> /usr/bin/sudo /usr/sbin/chown -R boydwold:admin /opt/homebrew
+==> /usr/bin/sudo /bin/mkdir -p /Users/boydwold/Library/Caches/Homebrew
+==> /usr/bin/sudo /bin/chmod g+rwx /Users/boydwold/Library/Caches/Homebrew
+==> /usr/bin/sudo /usr/sbin/chown -R boydwold /Users/boydwold/Library/Caches/Homebrew
+==> Downloading and installing Homebrew...
+remote: Enumerating objects: 275085, done.
+remote: Counting objects: 100% (2801/2801), done.
+remote: Compressing objects: 100% (1362/1362), done.
+remote: Total 275085 (delta 1627), reused 2461 (delta 1374), pack-reused 272284
+Receiving objects: 100% (275085/275085), 84.35 MiB | 5.59 MiB/s, done.
+Resolving deltas: 100% (197794/197794), done.
+From https://github.com/Homebrew/brew
+ * [new branch]            explain-std_-_args                   -> origin/explain-std_-_args
+ * [new branch]            fix-frozen-array-modification-errors -> origin/fix-frozen-array-modification-errors
+ * [new branch]            install-network-block                -> origin/install-network-block
+ * [new branch]            load-internal-cask-json-v3           -> origin/load-internal-cask-json-v3
+ * [new branch]            master                               -> origin/master
+ * [new branch]            more-public-apis-sorbet-strict       -> origin/more-public-apis-sorbet-strict
+ * [new branch]            more-sorbet-strict                   -> origin/more-sorbet-strict
+ * [new branch]            rubocop-avoid-fileutils-rmrf         -> origin/rubocop-avoid-fileutils-rmrf
+ * [new branch]            sorbet-files-update                  -> origin/sorbet-files-update
+ * [new branch]            srb-strict-utils                     -> origin/srb-strict-utils
+ * [new branch]            tmpdir-sandbox                       -> origin/tmpdir-sandbox
+ * [new tag]               0.1                                  -> 0.1
+ * [new tag]               0.2                                  -> 0.2
+ * [new tag]               0.3                                  -> 0.3
+ * [new tag]               0.4                                  -> 0.4
+ * [new tag]               0.5                                  -> 0.5
+ * [new tag]               0.6                                  -> 0.6
+ * [new tag]               0.7                                  -> 0.7
+ * [new tag]               0.7.1                                -> 0.7.1
+ * [new tag]               0.8                                  -> 0.8
+ * [new tag]               0.8.1                                -> 0.8.1
+ * [new tag]               0.9                                  -> 0.9
+ * [new tag]               0.9.1                                -> 0.9.1
+ * [new tag]               0.9.2                                -> 0.9.2
+ * [new tag]               0.9.3                                -> 0.9.3
+ * [new tag]               0.9.4                                -> 0.9.4
+ * [new tag]               0.9.5                                -> 0.9.5
+ * [new tag]               0.9.8                                -> 0.9.8
+ * [new tag]               0.9.9                                -> 0.9.9
+ * [new tag]               1.0.0                                -> 1.0.0
+ * [new tag]               1.0.1                                -> 1.0.1
+ * [new tag]               1.0.2                                -> 1.0.2
+ * [new tag]               1.0.3                                -> 1.0.3
+ * [new tag]               1.0.4                                -> 1.0.4
+ * [new tag]               1.0.5                                -> 1.0.5
+ * [new tag]               1.0.6                                -> 1.0.6
+ * [new tag]               1.0.7                                -> 1.0.7
+ * [new tag]               1.0.8                                -> 1.0.8
+ * [new tag]               1.0.9                                -> 1.0.9
+ * [new tag]               1.1.0                                -> 1.1.0
+ * [new tag]               1.1.1                                -> 1.1.1
+ * [new tag]               1.1.10                               -> 1.1.10
+ * [new tag]               1.1.11                               -> 1.1.11
+ * [new tag]               1.1.12                               -> 1.1.12
+ * [new tag]               1.1.13                               -> 1.1.13
+ * [new tag]               1.1.2                                -> 1.1.2
+ * [new tag]               1.1.3                                -> 1.1.3
+ * [new tag]               1.1.4                                -> 1.1.4
+ * [new tag]               1.1.5                                -> 1.1.5
+ * [new tag]               1.1.6                                -> 1.1.6
+ * [new tag]               1.1.7                                -> 1.1.7
+ * [new tag]               1.1.8                                -> 1.1.8
+ * [new tag]               1.1.9                                -> 1.1.9
+ * [new tag]               1.2.0                                -> 1.2.0
+ * [new tag]               1.2.1                                -> 1.2.1
+ * [new tag]               1.2.2                                -> 1.2.2
+ * [new tag]               1.2.3                                -> 1.2.3
+ * [new tag]               1.2.4                                -> 1.2.4
+ * [new tag]               1.2.5                                -> 1.2.5
+ * [new tag]               1.2.6                                -> 1.2.6
+ * [new tag]               1.3.0                                -> 1.3.0
+ * [new tag]               1.3.1                                -> 1.3.1
+ * [new tag]               1.3.2                                -> 1.3.2
+ * [new tag]               1.3.3                                -> 1.3.3
+ * [new tag]               1.3.4                                -> 1.3.4
+ * [new tag]               1.3.5                                -> 1.3.5
+ * [new tag]               1.3.6                                -> 1.3.6
+ * [new tag]               1.3.7                                -> 1.3.7
+ * [new tag]               1.3.8                                -> 1.3.8
+ * [new tag]               1.3.9                                -> 1.3.9
+ * [new tag]               1.4.0                                -> 1.4.0
+ * [new tag]               1.4.1                                -> 1.4.1
+ * [new tag]               1.4.2                                -> 1.4.2
+ * [new tag]               1.4.3                                -> 1.4.3
+ * [new tag]               1.5.0                                -> 1.5.0
+ * [new tag]               1.5.1                                -> 1.5.1
+ * [new tag]               1.5.10                               -> 1.5.10
+ * [new tag]               1.5.11                               -> 1.5.11
+ * [new tag]               1.5.12                               -> 1.5.12
+ * [new tag]               1.5.13                               -> 1.5.13
+ * [new tag]               1.5.14                               -> 1.5.14
+ * [new tag]               1.5.2                                -> 1.5.2
+ * [new tag]               1.5.3                                -> 1.5.3
+ * [new tag]               1.5.4                                -> 1.5.4
+ * [new tag]               1.5.5                                -> 1.5.5
+ * [new tag]               1.5.6                                -> 1.5.6
+ * [new tag]               1.5.7                                -> 1.5.7
+ * [new tag]               1.5.8                                -> 1.5.8
+ * [new tag]               1.5.9                                -> 1.5.9
+ * [new tag]               1.6.0                                -> 1.6.0
+ * [new tag]               1.6.1                                -> 1.6.1
+ * [new tag]               1.6.10                               -> 1.6.10
+ * [new tag]               1.6.11                               -> 1.6.11
+ * [new tag]               1.6.12                               -> 1.6.12
+ * [new tag]               1.6.13                               -> 1.6.13
+ * [new tag]               1.6.14                               -> 1.6.14
+ * [new tag]               1.6.15                               -> 1.6.15
+ * [new tag]               1.6.16                               -> 1.6.16
+ * [new tag]               1.6.17                               -> 1.6.17
+ * [new tag]               1.6.2                                -> 1.6.2
+ * [new tag]               1.6.3                                -> 1.6.3
+ * [new tag]               1.6.4                                -> 1.6.4
+ * [new tag]               1.6.5                                -> 1.6.5
+ * [new tag]               1.6.6                                -> 1.6.6
+ * [new tag]               1.6.7                                -> 1.6.7
+ * [new tag]               1.6.8                                -> 1.6.8
+ * [new tag]               1.6.9                                -> 1.6.9
+ * [new tag]               1.7.0                                -> 1.7.0
+ * [new tag]               1.7.1                                -> 1.7.1
+ * [new tag]               1.7.2                                -> 1.7.2
+ * [new tag]               1.7.3                                -> 1.7.3
+ * [new tag]               1.7.4                                -> 1.7.4
+ * [new tag]               1.7.5                                -> 1.7.5
+ * [new tag]               1.7.6                                -> 1.7.6
+ * [new tag]               1.7.7                                -> 1.7.7
+ * [new tag]               1.8.0                                -> 1.8.0
+ * [new tag]               1.8.1                                -> 1.8.1
+ * [new tag]               1.8.2                                -> 1.8.2
+ * [new tag]               1.8.3                                -> 1.8.3
+ * [new tag]               1.8.4                                -> 1.8.4
+ * [new tag]               1.8.5                                -> 1.8.5
+ * [new tag]               1.8.6                                -> 1.8.6
+ * [new tag]               1.9.0                                -> 1.9.0
+ * [new tag]               1.9.1                                -> 1.9.1
+ * [new tag]               1.9.2                                -> 1.9.2
+ * [new tag]               1.9.3                                -> 1.9.3
+ * [new tag]               2.0.0                                -> 2.0.0
+ * [new tag]               2.0.1                                -> 2.0.1
+ * [new tag]               2.0.2                                -> 2.0.2
+ * [new tag]               2.0.3                                -> 2.0.3
+ * [new tag]               2.0.4                                -> 2.0.4
+ * [new tag]               2.0.5                                -> 2.0.5
+ * [new tag]               2.0.6                                -> 2.0.6
+ * [new tag]               2.1.0                                -> 2.1.0
+ * [new tag]               2.1.1                                -> 2.1.1
+ * [new tag]               2.1.10                               -> 2.1.10
+ * [new tag]               2.1.11                               -> 2.1.11
+ * [new tag]               2.1.12                               -> 2.1.12
+ * [new tag]               2.1.13                               -> 2.1.13
+ * [new tag]               2.1.14                               -> 2.1.14
+ * [new tag]               2.1.15                               -> 2.1.15
+ * [new tag]               2.1.16                               -> 2.1.16
+ * [new tag]               2.1.2                                -> 2.1.2
+ * [new tag]               2.1.3                                -> 2.1.3
+ * [new tag]               2.1.4                                -> 2.1.4
+ * [new tag]               2.1.5                                -> 2.1.5
+ * [new tag]               2.1.6                                -> 2.1.6
+ * [new tag]               2.1.7                                -> 2.1.7
+ * [new tag]               2.1.8                                -> 2.1.8
+ * [new tag]               2.1.9                                -> 2.1.9
+ * [new tag]               2.2.0                                -> 2.2.0
+ * [new tag]               2.2.1                                -> 2.2.1
+ * [new tag]               2.2.10                               -> 2.2.10
+ * [new tag]               2.2.11                               -> 2.2.11
+ * [new tag]               2.2.12                               -> 2.2.12
+ * [new tag]               2.2.13                               -> 2.2.13
+ * [new tag]               2.2.14                               -> 2.2.14
+ * [new tag]               2.2.15                               -> 2.2.15
+ * [new tag]               2.2.16                               -> 2.2.16
+ * [new tag]               2.2.17                               -> 2.2.17
+ * [new tag]               2.2.2                                -> 2.2.2
+ * [new tag]               2.2.3                                -> 2.2.3
+ * [new tag]               2.2.4                                -> 2.2.4
+ * [new tag]               2.2.5                                -> 2.2.5
+ * [new tag]               2.2.6                                -> 2.2.6
+ * [new tag]               2.2.7                                -> 2.2.7
+ * [new tag]               2.2.8                                -> 2.2.8
+ * [new tag]               2.2.9                                -> 2.2.9
+ * [new tag]               2.3.0                                -> 2.3.0
+ * [new tag]               2.4.0                                -> 2.4.0
+ * [new tag]               2.4.1                                -> 2.4.1
+ * [new tag]               2.4.10                               -> 2.4.10
+ * [new tag]               2.4.11                               -> 2.4.11
+ * [new tag]               2.4.12                               -> 2.4.12
+ * [new tag]               2.4.13                               -> 2.4.13
+ * [new tag]               2.4.14                               -> 2.4.14
+ * [new tag]               2.4.15                               -> 2.4.15
+ * [new tag]               2.4.16                               -> 2.4.16
+ * [new tag]               2.4.2                                -> 2.4.2
+ * [new tag]               2.4.3                                -> 2.4.3
+ * [new tag]               2.4.4                                -> 2.4.4
+ * [new tag]               2.4.5                                -> 2.4.5
+ * [new tag]               2.4.6                                -> 2.4.6
+ * [new tag]               2.4.7                                -> 2.4.7
+ * [new tag]               2.4.8                                -> 2.4.8
+ * [new tag]               2.4.9                                -> 2.4.9
+ * [new tag]               2.5.0                                -> 2.5.0
+ * [new tag]               2.5.1                                -> 2.5.1
+ * [new tag]               2.5.10                               -> 2.5.10
+ * [new tag]               2.5.11                               -> 2.5.11
+ * [new tag]               2.5.12                               -> 2.5.12
+ * [new tag]               2.5.2                                -> 2.5.2
+ * [new tag]               2.5.3                                -> 2.5.3
+ * [new tag]               2.5.4                                -> 2.5.4
+ * [new tag]               2.5.5                                -> 2.5.5
+ * [new tag]               2.5.6                                -> 2.5.6
+ * [new tag]               2.5.7                                -> 2.5.7
+ * [new tag]               2.5.8                                -> 2.5.8
+ * [new tag]               2.5.9                                -> 2.5.9
+ * [new tag]               2.6.0                                -> 2.6.0
+ * [new tag]               2.6.1                                -> 2.6.1
+ * [new tag]               2.6.2                                -> 2.6.2
+ * [new tag]               2.7.0                                -> 2.7.0
+ * [new tag]               2.7.1                                -> 2.7.1
+ * [new tag]               2.7.2                                -> 2.7.2
+ * [new tag]               2.7.3                                -> 2.7.3
+ * [new tag]               2.7.4                                -> 2.7.4
+ * [new tag]               2.7.5                                -> 2.7.5
+ * [new tag]               2.7.6                                -> 2.7.6
+ * [new tag]               2.7.7                                -> 2.7.7
+ * [new tag]               3.0.0                                -> 3.0.0
+ * [new tag]               3.0.1                                -> 3.0.1
+ * [new tag]               3.0.10                               -> 3.0.10
+ * [new tag]               3.0.11                               -> 3.0.11
+ * [new tag]               3.0.2                                -> 3.0.2
+ * [new tag]               3.0.3                                -> 3.0.3
+ * [new tag]               3.0.4                                -> 3.0.4
+ * [new tag]               3.0.5                                -> 3.0.5
+ * [new tag]               3.0.6                                -> 3.0.6
+ * [new tag]               3.0.7                                -> 3.0.7
+ * [new tag]               3.0.8                                -> 3.0.8
+ * [new tag]               3.0.9                                -> 3.0.9
+ * [new tag]               3.1.0                                -> 3.1.0
+ * [new tag]               3.1.1                                -> 3.1.1
+ * [new tag]               3.1.10                               -> 3.1.10
+ * [new tag]               3.1.11                               -> 3.1.11
+ * [new tag]               3.1.12                               -> 3.1.12
+ * [new tag]               3.1.2                                -> 3.1.2
+ * [new tag]               3.1.3                                -> 3.1.3
+ * [new tag]               3.1.4                                -> 3.1.4
+ * [new tag]               3.1.5                                -> 3.1.5
+ * [new tag]               3.1.6                                -> 3.1.6
+ * [new tag]               3.1.7                                -> 3.1.7
+ * [new tag]               3.1.8                                -> 3.1.8
+ * [new tag]               3.1.9                                -> 3.1.9
+ * [new tag]               3.2.0                                -> 3.2.0
+ * [new tag]               3.2.1                                -> 3.2.1
+ * [new tag]               3.2.10                               -> 3.2.10
+ * [new tag]               3.2.11                               -> 3.2.11
+ * [new tag]               3.2.12                               -> 3.2.12
+ * [new tag]               3.2.13                               -> 3.2.13
+ * [new tag]               3.2.14                               -> 3.2.14
+ * [new tag]               3.2.15                               -> 3.2.15
+ * [new tag]               3.2.16                               -> 3.2.16
+ * [new tag]               3.2.17                               -> 3.2.17
+ * [new tag]               3.2.2                                -> 3.2.2
+ * [new tag]               3.2.3                                -> 3.2.3
+ * [new tag]               3.2.4                                -> 3.2.4
+ * [new tag]               3.2.5                                -> 3.2.5
+ * [new tag]               3.2.6                                -> 3.2.6
+ * [new tag]               3.2.7                                -> 3.2.7
+ * [new tag]               3.2.8                                -> 3.2.8
+ * [new tag]               3.2.9                                -> 3.2.9
+ * [new tag]               3.3.0                                -> 3.3.0
+ * [new tag]               3.3.1                                -> 3.3.1
+ * [new tag]               3.3.10                               -> 3.3.10
+ * [new tag]               3.3.11                               -> 3.3.11
+ * [new tag]               3.3.12                               -> 3.3.12
+ * [new tag]               3.3.13                               -> 3.3.13
+ * [new tag]               3.3.14                               -> 3.3.14
+ * [new tag]               3.3.15                               -> 3.3.15
+ * [new tag]               3.3.16                               -> 3.3.16
+ * [new tag]               3.3.2                                -> 3.3.2
+ * [new tag]               3.3.3                                -> 3.3.3
+ * [new tag]               3.3.4                                -> 3.3.4
+ * [new tag]               3.3.5                                -> 3.3.5
+ * [new tag]               3.3.6                                -> 3.3.6
+ * [new tag]               3.3.7                                -> 3.3.7
+ * [new tag]               3.3.8                                -> 3.3.8
+ * [new tag]               3.3.9                                -> 3.3.9
+ * [new tag]               3.4.0                                -> 3.4.0
+ * [new tag]               3.4.1                                -> 3.4.1
+ * [new tag]               3.4.10                               -> 3.4.10
+ * [new tag]               3.4.11                               -> 3.4.11
+ * [new tag]               3.4.2                                -> 3.4.2
+ * [new tag]               3.4.3                                -> 3.4.3
+ * [new tag]               3.4.4                                -> 3.4.4
+ * [new tag]               3.4.5                                -> 3.4.5
+ * [new tag]               3.4.6                                -> 3.4.6
+ * [new tag]               3.4.7                                -> 3.4.7
+ * [new tag]               3.4.8                                -> 3.4.8
+ * [new tag]               3.4.9                                -> 3.4.9
+ * [new tag]               3.5.0                                -> 3.5.0
+ * [new tag]               3.5.1                                -> 3.5.1
+ * [new tag]               3.5.10                               -> 3.5.10
+ * [new tag]               3.5.2                                -> 3.5.2
+ * [new tag]               3.5.3                                -> 3.5.3
+ * [new tag]               3.5.4                                -> 3.5.4
+ * [new tag]               3.5.5                                -> 3.5.5
+ * [new tag]               3.5.6                                -> 3.5.6
+ * [new tag]               3.5.7                                -> 3.5.7
+ * [new tag]               3.5.8                                -> 3.5.8
+ * [new tag]               3.5.9                                -> 3.5.9
+ * [new tag]               3.6.0                                -> 3.6.0
+ * [new tag]               3.6.1                                -> 3.6.1
+ * [new tag]               3.6.10                               -> 3.6.10
+ * [new tag]               3.6.11                               -> 3.6.11
+ * [new tag]               3.6.12                               -> 3.6.12
+ * [new tag]               3.6.13                               -> 3.6.13
+ * [new tag]               3.6.14                               -> 3.6.14
+ * [new tag]               3.6.15                               -> 3.6.15
+ * [new tag]               3.6.16                               -> 3.6.16
+ * [new tag]               3.6.17                               -> 3.6.17
+ * [new tag]               3.6.18                               -> 3.6.18
+ * [new tag]               3.6.19                               -> 3.6.19
+ * [new tag]               3.6.2                                -> 3.6.2
+ * [new tag]               3.6.20                               -> 3.6.20
+ * [new tag]               3.6.21                               -> 3.6.21
+ * [new tag]               3.6.3                                -> 3.6.3
+ * [new tag]               3.6.4                                -> 3.6.4
+ * [new tag]               3.6.5                                -> 3.6.5
+ * [new tag]               3.6.6                                -> 3.6.6
+ * [new tag]               3.6.7                                -> 3.6.7
+ * [new tag]               3.6.8                                -> 3.6.8
+ * [new tag]               3.6.9                                -> 3.6.9
+ * [new tag]               4.0.0                                -> 4.0.0
+ * [new tag]               4.0.1                                -> 4.0.1
+ * [new tag]               4.0.10                               -> 4.0.10
+ * [new tag]               4.0.11                               -> 4.0.11
+ * [new tag]               4.0.12                               -> 4.0.12
+ * [new tag]               4.0.13                               -> 4.0.13
+ * [new tag]               4.0.14                               -> 4.0.14
+ * [new tag]               4.0.15                               -> 4.0.15
+ * [new tag]               4.0.16                               -> 4.0.16
+ * [new tag]               4.0.17                               -> 4.0.17
+ * [new tag]               4.0.18                               -> 4.0.18
+ * [new tag]               4.0.19                               -> 4.0.19
+ * [new tag]               4.0.2                                -> 4.0.2
+ * [new tag]               4.0.20                               -> 4.0.20
+ * [new tag]               4.0.21                               -> 4.0.21
+ * [new tag]               4.0.22                               -> 4.0.22
+ * [new tag]               4.0.23                               -> 4.0.23
+ * [new tag]               4.0.24                               -> 4.0.24
+ * [new tag]               4.0.25                               -> 4.0.25
+ * [new tag]               4.0.26                               -> 4.0.26
+ * [new tag]               4.0.27                               -> 4.0.27
+ * [new tag]               4.0.28                               -> 4.0.28
+ * [new tag]               4.0.3                                -> 4.0.3
+ * [new tag]               4.0.4                                -> 4.0.4
+ * [new tag]               4.0.5                                -> 4.0.5
+ * [new tag]               4.0.6                                -> 4.0.6
+ * [new tag]               4.0.7                                -> 4.0.7
+ * [new tag]               4.0.8                                -> 4.0.8
+ * [new tag]               4.0.9                                -> 4.0.9
+ * [new tag]               4.1.0                                -> 4.1.0
+ * [new tag]               4.1.1                                -> 4.1.1
+ * [new tag]               4.1.10                               -> 4.1.10
+ * [new tag]               4.1.11                               -> 4.1.11
+ * [new tag]               4.1.12                               -> 4.1.12
+ * [new tag]               4.1.13                               -> 4.1.13
+ * [new tag]               4.1.14                               -> 4.1.14
+ * [new tag]               4.1.15                               -> 4.1.15
+ * [new tag]               4.1.16                               -> 4.1.16
+ * [new tag]               4.1.17                               -> 4.1.17
+ * [new tag]               4.1.18                               -> 4.1.18
+ * [new tag]               4.1.19                               -> 4.1.19
+ * [new tag]               4.1.2                                -> 4.1.2
+ * [new tag]               4.1.20                               -> 4.1.20
+ * [new tag]               4.1.21                               -> 4.1.21
+ * [new tag]               4.1.22                               -> 4.1.22
+ * [new tag]               4.1.23                               -> 4.1.23
+ * [new tag]               4.1.24                               -> 4.1.24
+ * [new tag]               4.1.25                               -> 4.1.25
+ * [new tag]               4.1.3                                -> 4.1.3
+ * [new tag]               4.1.4                                -> 4.1.4
+ * [new tag]               4.1.5                                -> 4.1.5
+ * [new tag]               4.1.6                                -> 4.1.6
+ * [new tag]               4.1.7                                -> 4.1.7
+ * [new tag]               4.1.8                                -> 4.1.8
+ * [new tag]               4.2.0                                -> 4.2.0
+ * [new tag]               4.2.1                                -> 4.2.1
+ * [new tag]               4.2.10                               -> 4.2.10
+ * [new tag]               4.2.11                               -> 4.2.11
+ * [new tag]               4.2.12                               -> 4.2.12
+ * [new tag]               4.2.13                               -> 4.2.13
+ * [new tag]               4.2.15                               -> 4.2.15
+ * [new tag]               4.2.16                               -> 4.2.16
+ * [new tag]               4.2.17                               -> 4.2.17
+ * [new tag]               4.2.18                               -> 4.2.18
+ * [new tag]               4.2.19                               -> 4.2.19
+ * [new tag]               4.2.2                                -> 4.2.2
+ * [new tag]               4.2.20                               -> 4.2.20
+ * [new tag]               4.2.21                               -> 4.2.21
+ * [new tag]               4.2.3                                -> 4.2.3
+ * [new tag]               4.2.4                                -> 4.2.4
+ * [new tag]               4.2.5                                -> 4.2.5
+ * [new tag]               4.2.6                                -> 4.2.6
+ * [new tag]               4.2.7                                -> 4.2.7
+ * [new tag]               4.2.8                                -> 4.2.8
+ * [new tag]               4.2.9                                -> 4.2.9
+ * [new tag]               4.3.0                                -> 4.3.0
+ * [new tag]               4.3.1                                -> 4.3.1
+ * [new tag]               4.3.2                                -> 4.3.2
+ * [new tag]               4.3.3                                -> 4.3.3
+ * [new tag]               4.3.4                                -> 4.3.4
+ * [new tag]               4.3.5                                -> 4.3.5
+ * [new tag]               4.3.6                                -> 4.3.6
+ * [new tag]               4.3.7                                -> 4.3.7
+ * [new tag]               4.3.8                                -> 4.3.8
+ * [new tag]               4.3.9                                -> 4.3.9
+remote: Enumerating objects: 33, done.
+remote: Counting objects: 100% (20/20), done.
+remote: Total 33 (delta 20), reused 20 (delta 20), pack-reused 13
+Unpacking objects: 100% (33/33), 5.60 KiB | 238.00 KiB/s, done.
+From https://github.com/Homebrew/brew
+ * [new tag]               4.0.29     -> 4.0.29
+ * [new tag]               4.1.9      -> 4.1.9
+ * [new tag]               4.2.14     -> 4.2.14
+Switched to a new branch 'stable'
+==> Updating Homebrew...
+==> Downloading https://ghcr.io/v2/homebrew/portable-ruby/portable-ruby/blobs/sha256:49847c7a13f7094b211f6d0025900dd23716be07dac894a3d6941d7696296306
+######################################################################################################### 100.0%
+==> Pouring portable-ruby-3.3.3.arm64_big_sur.bottle.tar.gz
+Warning: /opt/homebrew/bin is not in your PATH.
+  Instructions on how to configure your shell for Homebrew
+  can be found in the 'Next steps' section below.
+==> Installation successful!
+
+==> Homebrew has enabled anonymous aggregate formulae and cask analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics data has been sent yet (nor will any be during this install run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Next steps:
+- Run these two commands in your terminal to add Homebrew to your PATH:
+    (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/boydwold/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+- Run brew help to get started
+- Further documentation:
+    https://docs.brew.sh
+
+Done!
+
+Trying to detect installed Git...
+You already have Git installed. Skipping...
+Done!
+
+Trying to detect installed Zsh...
+You already have Zsh installed. Skipping...
+Setting up Zsh as default shell...
+The script will ask you the password for sudo:
+
+1) When changing your default shell via chsh -s
+
+Changing shell for boydwold.
+Password for boydwold: 
+chsh: no changes made
+Done!
+
+Installing software...
+==> Tapping homebrew/bundle
+Cloning into '/opt/homebrew/Library/Taps/homebrew/homebrew-bundle'...
+remote: Enumerating objects: 8164, done.
+remote: Counting objects: 100% (2249/2249), done.
+remote: Compressing objects: 100% (456/456), done.
+remote: Total 8164 (delta 1892), reused 2030 (delta 1784), pack-reused 5915
+Receiving objects: 100% (8164/8164), 1.98 MiB | 1.91 MiB/s, done.
+Resolving deltas: 100% (4767/4767), done.
+Tapped 1 command (108 files, 2.4MB).
+Installing git
+Installing zsh
+Installing zsh-completions
+Installing node
+Installing coreutils
+Installing nvm
+Installing tree
+Installing eza
+Installing zoxide
+Installing fzf
+Installing wget
+Installing yarn
+Installing tldr
+Installing mas
+Installing gh
+Installing terminal-notifier
+Installing wifi-password
+Warning: 'speedtest' formula is unreadable: No available formula with the name "speedtest". Did you mean speedread?
+Installing speedtest
+Warning: 'speedtest' formula is unreadable: No available formula with the name "speedtest". Did you mean speedread?
+Warning: No available formula with the name "speedtest". Did you mean speedread?
+==> Searching for similarly named formulae...
+==> Formulae
+speedtest-cli
+speedread
+
+To install speedtest-cli, run:
+  brew install speedtest-cli
+Installing speedtest has failed!
+Installing bat
+Installing youtube-dl
+Installing watchman
+Installing htop
+==> Downloading https://ghcr.io/v2/homebrew/core/htop/manifests/3.3.0
+==> Fetching htop
+==> Downloading https://ghcr.io/v2/homebrew/core/htop/blobs/sha256:a07989af65c77dbfb28b07b8faec12d3760831c360e0caa6a32a58eff0e8fd65
+curl: (56) Recv failure: No route to host
+Error: htop: Failed to download resource "htop"
+Download failed: https://ghcr.io/v2/homebrew/core/htop/blobs/sha256:a07989af65c77dbfb28b07b8faec12d3760831c360e0caa6a32a58eff0e8fd65
+Installing htop has failed!
+Installing gnupg
+curl: (6) Could not resolve host: formulae.brew.sh
+Warning: formula.jws.json: update failed, falling back to cached version.
+==> Downloading https://ghcr.io/v2/homebrew/core/gnupg/manifests/2.4.5-1
+curl: (6) Could not resolve host: ghcr.io
+curl: (6) Could not resolve host: ghcr.io
+curl: (6) Could not resolve host: ghcr.io
+curl: (6) Could not resolve host: ghcr.io
+==> Fetching dependencies for gnupg: libtasn1, nettle, p11-kit, unbound, gnutls, libgpg-error, libassuan, libgcrypt, libksba, libusb, npth and pinentry
+==> Downloading https://ghcr.io/v2/homebrew/core/libtasn1/manifests/4.19.0
+curl: (6) Could not resolve host: ghcr.io
+curl: (6) Could not resolve host: ghcr.io
+curl: (6) Could not resolve host: ghcr.io
+curl: (6) Could not resolve host: ghcr.io
+==> Fetching libtasn1
+==> Downloading https://ghcr.io/v2/homebrew/core/libtasn1/blobs/sha256:975eaba8f266020c3c82a667a0e693a1c6b1f76e317a95bb79b6906fd248bcc5
+curl: (6) Could not resolve host: ghcr.io
+curl: (6) Could not resolve host: ghcr.io
+curl: (6) Could not resolve host: ghcr.io
+curl: (6) Could not resolve host: ghcr.io
+Error: gnupg: Failed to download resource "libtasn1"
+Download failed: https://ghcr.io/v2/homebrew/core/libtasn1/blobs/sha256:975eaba8f266020c3c82a667a0e693a1c6b1f76e317a95bb79b6906fd248bcc5
+Installing gnupg has failed!
+Tapping homebrew/cask-fonts
+Error: homebrew/cask-fonts was deprecated. This tap is now empty and all its contents were either deleted or migrated.
+Tapping homebrew/cask-fonts has failed!
+Using homebrew/bundle
+Tapping homebrew/cask
+Error: Tapping homebrew/cask is no longer typically necessary.
+Add --force if you are sure you need it for contributing to Homebrew.
+Tapping homebrew/cask has failed!
+Tapping homebrew/core
+Error: Tapping homebrew/core is no longer typically necessary.
+Add --force if you are sure you need it for contributing to Homebrew.
+Tapping homebrew/core has failed!
+Installing font-fira-code
+Installing font-fira-code-nerd-font
+Installing font-hasklug-nerd-font
+Installing gpg-suite
+Password:
+Installing bitwarden
+Installing stats
+Installing spotify
+Installing vlc
+Installing plex
+Installing obs
+Installing screenflow
+Installing fig
+Installing multipass
+Installing iterm2
+Installing visual-studio-code
+Installing github
+Installing docker
+Installing xcode
+Warning: Cask 'xcode' is unavailable: No Cask with this name exists.
+==> Searching for similarly named casks...
+==> Casks
+copilot-for-xcode
+phoenix-code
+swiftformat-for-xcode
+xcodeclangformat
+xcodepilot
+xcodes
+xscope
+
+To install copilot-for-xcode, run:
+  brew install --cask copilot-for-xcode
+Installing xcode has failed!
+Installing affinity-designer
+Installing affinity-photo
+Installing affinity-publisher
+Installing figma
+Installing telegram
+Installing arc
+Installing google-chrome
+Installing microsoft-edge
+Password:
+Installing firefox
+Installing brave-browser
+Installing slack
+Installing discord
+Installing raycast
+Installing karabiner-elements
+Installing keyboard-maestro
+Installing balenaetcher
+Installing protonvpn
+Installing protonmail-bridge
+Installing proton-mail
+Installing proton-pass
+Installing microsoft-teams
+Installing onedrive
+Installing pdf-expert
+Installing qlcolorcode
+Installing qlstephen
+Installing quicklook-json
+Installing qlimagesize
+Installing webpquicklook
+Installing bartender
+Installing caffeine
+Installing cleanshot
+Installing devonthink
+Installing elgato-stream-deck
+Installing grammarly
+Error: Cask 'grammarly' has been disabled because it is discontinued upstream!
+Installing grammarly has failed!
+Installing grammarly-desktop
+Installing gpg-keychain
+Warning: Cask 'gpg-keychain' is unavailable: No Cask with this name exists.
+==> Searching for similarly named casks...
+==> Casks
+gpg-sync
+
+To install gpg-sync, run:
+  brew install --cask gpg-sync
+Installing gpg-keychain has failed!
+Installing obsbot-webcam
+Installing omnivore
+Warning: Cask 'omnivore' is unavailable: No Cask with this name exists.
+==> Searching for similarly named casks...
+==> Casks
+omnioutliner
+
+To install omnioutliner, run:
+  brew install --cask omnioutliner
+Installing omnivore has failed!
+Installing open-audible
+Warning: Cask 'open-audible' is unavailable: No Cask with this name exists.
+==> Searching for similarly named casks...
+==> Casks
+openaudible
+
+To install openaudible, run:
+  brew install --cask openaudible
+Installing open-audible has failed!
+Installing parallels-desktop
+Warning: Cask 'parallels-desktop' is unavailable: No Cask with this name exists.
+==> Searching for similarly named casks...
+==> Casks
+parallels
+
+To install parallels, run:
+  brew install --cask parallels
+Installing parallels-desktop has failed!
+Installing rewind
+Installing scapple
+Installing shapr3d
+Installing signal
+Installing structured
+Warning: Cask 'structured' is unavailable: No Cask with this name exists.
+Error: No casks found for structured.
+==> Searching for similarly named casks...
+Installing structured has failed!
+Installing whatsapp
+Installing pcloud-drive
+Warning: Cask 'pcloud-drive' is unavailable: No Cask with this name exists.
+Error: No casks found for pcloud-drive.
+==> Searching for similarly named casks...
+Installing pcloud-drive has failed!
+Installing zoom
+Password:
+Homebrew Bundle failed! 14 Brewfile dependencies failed to install.
+boydwold@Boyds-MacBook-Pro .dotfiles % brew 
+zsh: command not found: brew
+boydwold@Boyds-MacBook-Pro .dotfiles % 
+  [Restored Jul 18, 2024 at 11:16:20 AM]
+Last login: Thu Jul 18 10:35:39 on ttys004
+/Users/boydwold/.zsh_sessions/75C167A8-A5E1-4F1D-9C28-70095739AAA3.session:2: command not found: Saving
+Starting ssh-agent ...
+
+.dotfiles on  master 
+➜ 
