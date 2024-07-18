@@ -23,16 +23,20 @@ brew "terminal-notifier"
 brew "wifi-password"
 brew "speedtest"
 brew "bat"
-brew "trash-it"
+# brew "trash-it" # This package does not exist in Homebrew
 brew "youtube-dl"
 brew "watchman" # Watching files for Jest
-brew "git"
-brew "wget"
+brew "htop"
+# brew "jq"
+brew "gnupg"
 
 # ------------------------------------------------------------------------------
 # Taps
 # ------------------------------------------------------------------------------
 tap "homebrew/cask-fonts"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
 
 # ------------------------------------------------------------------------------
 # Cask
@@ -46,6 +50,8 @@ cask "font-hasklug-nerd-font"
 # Utils
 cask "gpg-suite"
 # cask "openvpn-connect"
+cask "bitwarden"
+cask "stats"
 
 # Media
 cask "spotify"
@@ -58,16 +64,22 @@ cask "screenflow"
 cask "fig"
 cask "multipass"
 cask "iterm2"
-cask "warp"
+# cask "warp"
 cask "visual-studio-code"
 cask "github"
 cask "docker"
+# cask "sublime-text"
+cask "xcode"
+# cask "xcode-beta"
+# brew "python"
+# brew "go"
 
 # Design
 cask "affinity-designer"
 cask "affinity-photo"
 cask "affinity-publisher"
 cask "figma"
+# cask "sketch"
 
 # Desktop applications
 cask "telegram"
@@ -77,9 +89,8 @@ cask "microsoft-edge"
 cask "firefox"
 cask "brave-browser"
 cask "slack"
-cask "steam"
-cask "spotify"
-cask "notion"
+# cask "steam"
+# cask "notion"
 cask "discord"
 cask "raycast"
 cask "karabiner-elements"
@@ -89,7 +100,13 @@ cask "protonvpn"
 cask "protonmail-bridge"
 cask "proton-mail"
 cask "proton-pass"
-cask "cloudflare-warp"
+# cask "cloudflare-warp"
+
+# Productivity
+# cask "microsoft-office"
+cask "microsoft-teams"
+cask "onedrive"
+cask "pdf-expert"
 
 # Quick Look plugins
 cask "qlcolorcode" # https://github.com/anthonygelibert/QLColorCode
@@ -98,13 +115,77 @@ cask "quicklook-json" # https://github.com/sindresorhus/quick-look-plugins
 cask "qlimagesize" # https://github.com/Nyx0uf/qlImageSize
 cask "webpquicklook" # https://github.com/dchest/webp-quicklook
 
+# Additional Tools
+# cask "alfred"
+cask "bartender"
+cask "caffeine"
+cask "cleanshot"
+# cask "divvy"
+# cask "kap"
+# cask "rectangle"
+
+# Custom Applications from installed-applications.txt
+# cask "bitwarden-directory-connector"
+# cask "chirp"
+# cask "cakebrew"
+# cask "carbide-create"
+# cask "carbide-motion"
+# cask "cloudflare-one"
+cask "devonthink"
+# cask "drafts"
+# cask "duplicate-file-finder"
+cask "elgato-stream-deck"
+cask "grammarly"
+cask "grammarly-desktop"
+cask "gpg-keychain"
+# cask "logseq"
+# cask "microsoft-defender"
+# cask "microsoft-onenote"
+# cask "microsoft-outlook"
+# cask "microsoft-powerpoint"
+# cask "microsoft-remote-desktop"
+# cask "microsoft-to-do"
+# cask "microsoft-word"
+# cask "notability"
+cask "obsbot-webcam"
+cask "omnivore"
+cask "open-audible"
+# cask "openbuilds-control"
+cask "parallels-desktop"
+# cask "powershell"
+cask "rewind"
+cask "scapple"
+cask "shapr3d"
+cask "signal"
+cask "structured"
+# cask "teamviewer"
+# cask "turtle-beach"
+# cask "uubyte-iso-editor"
+# cask "universal-gcode-sender"
+cask "whatsapp"
+cask "pcloud-drive"
+# cask "proton-mail-export-cli"
+cask "zoom"
+
 # ------------------------------------------------------------------------------
 # App Store applications
 # ------------------------------------------------------------------------------
-mas "Home Assistant", id: 1099568401
-mas "Bitwarden", id: 1352778147
-mas "Spark", id: 1176895641
-mas "Unsplash Wallpapers", id: 12848638472
-# mas "NordVPN", id: 905953485
-mas "The Unarchiver",  id: 425424353
-mas "Pandan", id: 1569600264
+# mas "Home Assistant", id: 1099568401
+
+# Applications that might need manual installation
+# Setapp (applications managed through Setapp subscription)
+# - CleanMyMac X
+# - Downie
+# - NotePlan
+# - TextSniper
+# - HazeOver
+# - Bartender
+# - Vidrio
+# - Keep It Shot
+# - Elephas
+# - Meeter
+# - Yoink
+# - In Your Face
+# - Gitfox
+# Autodesk Fusion 360
+# Goodnotes (App Store)
