@@ -26,6 +26,8 @@ brew "bat"
 brew "trash-it"
 brew "youtube-dl"
 brew "watchman" # Watching files for Jest
+brew "git"
+brew "wget"
 
 # ------------------------------------------------------------------------------
 # Taps
@@ -42,26 +44,36 @@ cask "font-fira-code-nerd-font"
 cask "font-hasklug-nerd-font"
 
 # Utils
-cask "ukrainian-typographic-keyboard"
 cask "gpg-suite"
-cask "openvpn-connect"
+# cask "openvpn-connect"
 
 # Media
-cask "transmission"
-cask "handbrake"
+cask "spotify"
 cask "vlc"
+cask "plex"
 cask "obs"
+cask "screenflow"
 
 # Development
 cask "fig"
 cask "multipass"
 cask "iterm2"
+cask "warp"
 cask "visual-studio-code"
 cask "github"
+cask "docker"
+
+# Design
+cask "affinity-designer"
+cask "affinity-photo"
+cask "affinity-publisher"
+cask "figma"
 
 # Desktop applications
 cask "telegram"
+cask "arc"
 cask "google-chrome"
+cask "microsoft-edge"
 cask "firefox"
 cask "brave-browser"
 cask "slack"
@@ -69,6 +81,15 @@ cask "steam"
 cask "spotify"
 cask "notion"
 cask "discord"
+cask "raycast"
+cask "karabiner-elements"
+cask "keyboard-maestro"
+cask "balenaetcher"
+cask "protonvpn"
+cask "protonmail-bridge"
+cask "proton-mail"
+cask "proton-pass"
+cask "cloudflare-warp"
 
 # Quick Look plugins
 cask "qlcolorcode" # https://github.com/anthonygelibert/QLColorCode
@@ -84,6 +105,6 @@ mas "Home Assistant", id: 1099568401
 mas "Bitwarden", id: 1352778147
 mas "Spark", id: 1176895641
 mas "Unsplash Wallpapers", id: 12848638472
-mas "NordVPN", id: 905953485
+# mas "NordVPN", id: 905953485
 mas "The Unarchiver",  id: 425424353
 mas "Pandan", id: 1569600264
