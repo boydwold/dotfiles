@@ -118,3 +118,6 @@
 #   email = denysdovhan@gmail.com
 [include]
   path = ~/.gitlocal
+[user]
+	email = boydwold@gmail.com
+	name = Boyd Wold
