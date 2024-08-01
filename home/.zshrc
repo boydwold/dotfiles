@@ -62,16 +62,18 @@ less_opts=(
 export LESS="${less_opts[*]}"
 
 # Default editor for local and remote sessions
-if [[ -n "$SSH_CONNECTION" ]]; then
+# if [[ -n "$SSH_CONNECTION" ]]; then
   # on the server
-  if command -v vim >/dev/null 2>&1; then
-    export EDITOR='vim'
-  else
-    export EDITOR='vi'
-  fi
-else
-  export EDITOR='vim'
-fi
+#  if command -v vim >/dev/null 2>&1; then
+#    export EDITOR='vim'
+#  else
+#    export EDITOR='vi'
+#  fi
+#else
+#  export EDITOR='vim'
+#fi
+
+export EDITOR='nano'
 
 # Better formatting for time command
 export TIMEFMT=$'\n================\nCPU\t%P\nuser\t%*U\nsystem\t%*S\ntotal\t%*E'
@@ -205,3 +207,8 @@ fi
 
 # Amazon Q post block. Keep at the bottom of this file.
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+alias nano='/opt/homebrew/bin/nano'
+alias ts='tailscale'

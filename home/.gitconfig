@@ -119,7 +119,7 @@
 [include]
   path = ~/.gitlocal
 [user]
-	email = boydwold@gmail.com
+	email = 107568704+rpcaptain@users.noreply.github.com
 	name = Boyd Wold
 [credential]
 	helper = store
