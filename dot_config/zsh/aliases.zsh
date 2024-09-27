@@ -201,3 +201,11 @@ alias lg="lazygit"
 # }
 # alias vi='poetry_run_nvim'
 # alias v='poetry_run_nvim'
+
+# Starship Reload
+alias sswork='export STARSHIP_CONFIG="$HOME/.config/starship/starship-work.toml" && eval "$(starship init zsh)"'
+alias ssdefault='export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml" && eval "$(starship init zsh)"'
+alias ssclean='export STARSHIP_CONFIG="$HOME/.config/starship/starship-clean.toml" && eval "$(starship init zsh)"'
+
+# Chezmoi
+alias cz='chezmoi'
