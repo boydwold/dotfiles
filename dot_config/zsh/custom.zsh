@@ -23,3 +23,11 @@ ZSH_HIGHLIGHT_STYLES[path_prefix]=none
 
 # Activate autosuggestions
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+## Tmux session Wizard
+
+#Use Tmux Session Wizard outside of tmux
+# ~/.tmux/plugins
+export PATH=$HOME/.tmux/plugins/tmux-session-wizard/bin:$PATH
+# ~/.config/tmux/plugins
+export PATH=$HOME/.config/tmux/plugins/tmux-session-wizard/bin:$PATH
