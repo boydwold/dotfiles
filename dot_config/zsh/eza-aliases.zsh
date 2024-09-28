@@ -10,20 +10,23 @@ if (( $+commands[eza] )); then
   typeset -ag eza_params
 
   eza_params=(
-    '--git' '--icons' '--group' '--group-directories-first'
-    '--time-style=long-iso' '--color-scale=all'
+    '--git' '--icons=always' '--group' '--group-directories-first'
+    '--time-style=iso' '--color=auto' '--header' '--binary'
+    '--links' '--git-ignore'
   )
 
   [[ ! -z $_EZA_PARAMS ]] && eza_params=($_EZA_PARAMS)
 
-  alias ls='eza $eza_params'
-  alias l='eza --git-ignore $eza_params'
-  alias ll='eza --all --header --long $eza_params'
-  alias llm='eza --all --header --long --sort=modified $eza_params'
+  alias ls='eza'
+  alias l='eza --all $eza_params'
+  alias ll='eza --all --long $eza_params'
+  alias llm='eza --all --long --sort=modified $eza_params'
   alias la='eza -lbhHigUmuSa'
   alias lx='eza -lbhHigUmuSa@'
   alias lt='eza --tree $eza_params'
   alias tree='eza --tree $eza_params'
+  alias ltr='eza --tree --reverse $eza_params'
+  alias ldu='eza --total-size --all --long $eza_params'
 
   [[ "$AUTOCD" = <-> ]] && enable_autocd="$AUTOCD"
   if [[ "$enable_autocd" == "1" ]]; then
@@ -37,3 +40,5 @@ else
 fi
 
 return 0
+
+#eza --long --group --header --binary --time-style=iso --icons=always --git --group-directories-first --color=auto
