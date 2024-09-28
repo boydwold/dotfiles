@@ -18,7 +18,7 @@ alias d="cd ~/Documents & ll"
 alias dl="cd ~/Downloads && ll"
 alias dt="cd ~/Desktop && ll"
 alias p="cd ~/Projects && ll"
-
+alias pjr="cd ~/Projects/Repos && ll"
 # bat for cat
 alias cat='bat'
 
@@ -27,7 +27,7 @@ alias l="if [ -d .git ]; then eza --all --git --icons=always --group-directories
 alias ld="if [ -d .git ]; then eza -lD --git --icons=always --group-directories-first; else eza -lD --icons=always --group-directories-first; fi" # Long listing format, sorted by directories, Git status if applicable, directories first with icons.
 alias lf="if [ -d .git ]; then eza -lf --git --icons=always --group-directories-first; else eza -lf --icons=always --group-directories-first; fi" # Long listing format of files only, Git status if applicable, directories first with icons.
 alias lh="if [ -d .git ]; then eza -dl .* --git --group-directories-first --icons=always; else eza -dl .* --group-directories-first --icons=always; fi" # Long listing of hidden files, Git status if applicable, directories first with icons.
-alias ll="if [ -d .git ]; then eza -al --git --group-directories-first --icons=always; else eza -al --group-directories-first --icons=always; fi" # Detailed list, Git status if applicable, directories first with icons.
+alias ll="if [ -d .git ]; then eza --long --group --header --binary --time-style=long-iso --icons --git --group-directories-first; else eza --long --group --header --binary --time-style=long-iso --icons --group-directories-first; fi" # Detailed list, Git status if applicable, directories first with icons.
 alias ls="if [ -d .git ]; then eza -alf --git --color=always --sort=size --group-directories-first --icons=always; else eza -alf --color=always --sort=size --group-directories-first --icons=always; fi" # List sorted by size, Git status if applicable, directories first with icons and color.
 alias lt="if [ -d .git ]; then eza -al --git --sort=modified --icons=always --group-directories-first; else eza -al --sort=modified --icons=always --group-directories-first; fi" # List sorted by modification time, Git status if applicable, directories first with icons.
 alias lsize="if [ -d .git ]; then eza --oneline --reverse --git --sort=size --icons=always --group-directories-first; else eza --oneline --reverse --sort=size --icons=always --group-directories-first; fi" # Single-line list sorted by size, Git status if applicable, directories first with icons.
