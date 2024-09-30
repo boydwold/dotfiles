@@ -12,7 +12,7 @@ fpath=($HOME/.config/zsh $fpath)
 autoload -Uz compinit && compinit
 
 # zoxide - a better cd command
-eval "$(zoxide init zsh)"
+eval "$(zoxide init zsh --cmd cd)"
 
 # Activate syntax highlighting
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
