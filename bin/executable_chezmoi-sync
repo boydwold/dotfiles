@@ -1,0 +1,76 @@
+#!/bin/bash
+
+# Change to the home directory
+cd "$HOME" || { echo "Failed to change directory to $HOME"; exit 1; }
+
+# Get the status output from chezmoi
+chezmoi_status=$(chezmoi status)
+
+# Initialize arrays to hold files for each action
+declare -a files_to_add
+declare -a files_to_remove
+
+# Read the status line by line
+while IFS= read -r line; do
+    # Skip empty lines
+    [[ -z "$line" ]] && continue
+
+    # Extract status codes and file path
+    status_code="${line:0:2}"
+    file_path="${line:3}"
+
+    # Determine action based on status codes
+    # First column indicates difference between last state written by chezmoi and actual state
+    first_col="${status_code:0:1}"
+    second_col="${status_code:1:1}"
+
+    # Handle changes in the first column (difference between last state and actual state)
+    case "$first_col" in
+        ' ')
+            # No change in the destination state compared to last written state
+            ;;
+        'A')
+            # File was added in the destination
+            echo "File added in destination: $file_path"
+            files_to_add+=("$file_path")
+            ;;
+        'D')
+            # File was deleted in the destination
+            echo "File deleted in destination: $file_path"
+            files_to_remove+=("$file_path")
+            ;;
+        'M')
+            # File was modified in the destination
+            echo "File modified in destination: $file_path"
+            files_to_add+=("$file_path")
+            ;;
+        *)
+            echo "Unknown status code in first column: '$first_col' for file: $file_path"
+            ;;
+    esac
+done <<< "$chezmoi_status"
+
+# Process files to add
+if [ ${#files_to_add[@]} -gt 0 ]; then
+    echo "Adding modified or new files to source state:"
+    for file in "${files_to_add[@]}"; do
+        echo "Adding: $file"
+        chezmoi add -- "$file"
+    done
+fi
+
+# Process files to remove
+if [ ${#files_to_remove[@]} -gt 0 ]; then
+    echo "Removing deleted files from source state:"
+    for file in "${files_to_remove[@]}"; do
+        echo "Removing: $file"
+        chezmoi remove --force -- "$file"
+    done
+fi
+
+if [ ${#files_to_add[@]} -eq 0 ] && [ ${#files_to_remove[@]} -eq 0 ]; then
+    echo "No changes to update in the source state."
+else
+    echo "Source state has been updated."
+fi
+
