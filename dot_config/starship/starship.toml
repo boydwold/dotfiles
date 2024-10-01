@@ -36,7 +36,7 @@ $time\
 """
 
 continuation_prompt = "[╰─ ](bold green)"
-command_timeout = 1000
+command_timeout = 10000
 
 [line_break]
 disabled = false
