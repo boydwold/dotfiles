@@ -1,3 +1,5 @@
 # Use Neovim as default editor
 export EDITOR="nvim"
 export VISUAL="code"
+
+alias assume=". assume"
