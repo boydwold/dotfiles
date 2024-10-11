@@ -73,7 +73,7 @@
     },
     "authenticated": true,
     "endpoint": "https://sourcegraph.com/",
-    "siteVersion": "294603_2024-10-09_5.8-7c72ba8e3822",
+    "siteVersion": "294858_2024-10-10_5.8-dee8b10e903e",
     "configOverwrites": {
       "chatModel": "sourcegraph/claude-3.5-sonnet",
       "chatModelMaxTokens": 45000,
