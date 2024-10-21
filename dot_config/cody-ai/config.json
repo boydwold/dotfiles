@@ -63,30 +63,15 @@
   },
   "authStatus": {
     "id": "VXNlcjozNzM5NTE=",
-    "hasVerifiedEmail": true,
+    "hasVerifiedEmail": false,
     "displayName": "Boyd Wold",
     "username": "boydwold-fzqxz",
     "avatarURL": "https://lh3.googleusercontent.com/a/ACg8ocLM1kfI-Wn3LjD2D11BlK2iRMTQOXb4_KAWPAiyWakZVaBVzKwwMg=s96-c",
     "primaryEmail": "boydwold@gmail.com",
-    "organizations": {
-      "nodes": []
-    },
-    "authenticated": true,
+    "organizations": [],
     "endpoint": "https://sourcegraph.com/",
-    "siteVersion": "295068_2024-10-11_5.8-d637e71a7106",
-    "configOverwrites": {
-      "chatModel": "sourcegraph/claude-3.5-sonnet",
-      "chatModelMaxTokens": 45000,
-      "fastChatModel": "sourcegraph/claude-3-haiku",
-      "fastChatModelMaxTokens": 7000,
-      "completionModel": "sourcegraph/deepseek-coder-v2-lite-base",
-      "completionModelMaxTokens": 2048,
-      "provider": "sourcegraph",
-      "smartContextWindow": false
-    },
-    "userCanUpgrade": false,
+    "authenticated": true,
     "requiresVerifiedEmail": true,
-    "codyApiVersion": 2,
     "pendingValidation": false,
     "isFireworksTracingEnabled": false
   }
